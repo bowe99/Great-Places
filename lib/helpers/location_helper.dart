@@ -4,4 +4,7 @@ class LocationHelper {
   static String generateLocationImage({double latitude, double longitude}) {
     return 'https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/pin-s+FFC107($longitude,$latitude)/$longitude,$latitude,12,0/300x200?access_token=$API_KEY';
   }
+  static String generateLocationImageLarge({double latitude, double longitude}) {
+    return 'https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/pin-s+FFC107($longitude,$latitude)/$longitude,$latitude,12,0/600x600?access_token=$API_KEY';
+  }
 }
