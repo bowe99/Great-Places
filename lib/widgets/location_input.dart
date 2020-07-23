@@ -67,6 +67,7 @@ class _LocationInputState extends State<LocationInput> {
               textColor: Theme.of(context).primaryColor,
             ),
             FlatButton.icon(
+              onPressed: null,
               icon: Icon(Icons.map),
               label: Text('Select Location'),
               textColor: Theme.of(context).primaryColor,
